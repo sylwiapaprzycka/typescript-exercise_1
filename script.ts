@@ -18,7 +18,7 @@ function sum(title: string, ...numbers: number[]): string {
 sum('Numbers', 1, 6, 10)
 console.log(sum('Numbers', 1, 6, 10));
 
-const executeFunc = (func:(title: string, age: number, hobbies: string[]) => void): void => {
+const executeFunc = (func:(title: string, age: number, hobbies: string[]) => boolean): void => {
   const title: string = 'Lorem Ipsum';
   func(title, 24, ['Sport', 'Movies'])
 }

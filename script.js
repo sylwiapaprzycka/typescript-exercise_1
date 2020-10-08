@@ -1,4 +1,3 @@
-"use strict";
 function showMyName(name) {
     console.log(name);
 }
@@ -19,9 +18,6 @@ sum('Numbers', 1, 6, 10);
 console.log(sum('Numbers', 1, 6, 10));
 var executeFunc = function (func) {
     var title = 'Lorem Ipsum';
-    var age = 24;
-    var hobbies = ['Sport', 'Movies'];
     func(title, 24, ['Sport', 'Movies']);
 };
 executeFunc(function (title, age, hobbies) { return true; });
-//# sourceMappingURL=script.js.map
